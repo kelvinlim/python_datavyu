@@ -10,8 +10,32 @@ https://github.com/databrary/datavyu/blob/master/src/main/resources/Datavyu_API.
 
 R code for converting opf file to CSV.
 
+https://github.com/PLAY-behaviorome/databraryapi
+
 https://rdrr.io/github/PLAY-behaviorome/databraryapi/f/README.md
 
 https://rdrr.io/github/PLAY-behaviorome/databraryapi/man/dv_to_csv.html
 
 https://rdrr.io/github/PLAY-behaviorome/databraryapi/src/R/dv_to_csv.R
+
+Install
+
+```
+Install the devtools package from CRAN: install.packages("devtools") if you have not already done so.
+Load devtools into your local environment: library(devtools)
+Install the databraryapi package via install_github("PLAY-behaviorome/databraryapi"). Required dependencies will be installed at this time.
+The latest version is 0.2.9.
+
+```
+
+```
+Got error:
+Warning messages:
+1: In install.packages("devtools") :
+  installation of package ‘textshaping’ had non-zero exit status
+2: In install.packages("devtools") :
+  installation of package ‘ragg’ had non-zero exit status
+3: In install.packages("devtools") :
+  installation of package ‘pkgdown’ had non-zero exit status
+4: In install.packages("devtools") :
+```
